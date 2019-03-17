@@ -2,7 +2,7 @@
 
 [写入](/hdfs/images/写入过程1.png)
 [写入](/hdfs/images/写入过程2.png)
-
+<img src=/images/写入过程1.png width = "300" height = "120">
 #### 详细过程
 1. HDFS客户端调用DistributedFileSystem.create()函数创建文件
 
