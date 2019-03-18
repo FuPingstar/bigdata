@@ -12,7 +12,8 @@ __Start__
 
 ### HBase<br>
 [1.hbase基础概念](/hbase/hbase基础概念.md)<br>
-[2.hbase内部探险](/hbase/hbase内部探险.md)
+[2.快速启动hbase](/hbase/快速启动Hbase.md)<br>
+[3.hbase内部探险](/hbase/hbase内部探险.md)<br>
 
 
 
