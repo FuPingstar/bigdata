@@ -11,7 +11,8 @@ __Start__
 [3. hdfs数据读写过程](/hdfs/hdfs数据读写过程.md)<br>
 
 ### HBase<br>
-[1.hbase基础概念](/hbase/hbase基础概念.md)
+[1.hbase基础概念](/hbase/hbase基础概念.md)<br>
+[2.hbase内部探险](/hbase/hbase内部探险.md)
 
 
 

@@ -103,7 +103,7 @@ WAL 的检查间隔由 hbase.regionserver.logroll.period 定义，默认值为 1
 
     - Trailer：必选的，它存储了 FileInfo、DataIndex、MetaIndex 块的偏移值。
 
-![HFile组成结构](/hbase/images/HFile内部组成结构.webp)
+![HFile组成结构](/hbase/images/HFile组成结构.webp)
 
 #### data数据块
 Data 数据块的第一位存储的是块的类型，后面存储的是多个 KeyValue 键值对，也就是单元格（Cell）的实现类，Cell 是一个接口，KeyValue 是它的实现类。
