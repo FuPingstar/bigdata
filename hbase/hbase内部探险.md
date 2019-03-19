@@ -184,7 +184,7 @@ HBase 是一个可以随机读写的数据库，而它所基于的持久化层 H
 
 + 访问 -ROOT- 表，看需要的数据在哪个 .META. 表上，这个 .META. 表在什么 RegionServer 上；
 
-+访问 .META. 表来看要查询的行键在什么 Region 范围里面；
++ 访问 .META. 表来看要查询的行键在什么 Region 范围里面；
 
 + 连接具体的数据所在的 RegionServer，这回就真的开始用 Scan 来遍历 row 了。
 
