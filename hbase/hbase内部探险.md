@@ -72,7 +72,7 @@ WAL 的检查间隔由 hbase.regionserver.logroll.period 定义，默认值为 1
 1.   MemStore：每个 Store 中有一个 MemStore 实例，数据写入 WAL 之后就会被放入 MemStore。MemStore 是内存的存储对象，只有当 MemStore 满了的时候才会将数据刷写（flush）到 HFile 中；
 2. HFile：在 Store 中有多个 HFile，当 MemStore 满了之后 HBase 就会在 HDFS 上生成一个新的 HFile，然后把 MemStore 中的内容写到这个 HFile 中。HFile 直接跟 HDFS 打交道，它是数据的存储实体。
 
-![store内部架构](/hbase/images/store内部架构.wedp)
+![store内部架构](/hbase/images/store内部架构.webp)
 
 <font color="red">WAL 是存储在 HDFS 上的，Memstore 是存储在内存中的，HFile 又是存储在 HDFS 上的；数据是先写入 WAL，再被放入 Memstore，最后被持久化到 HFile 中。数据在进入 HFile 之前已经被存储到 HDFS 一次了，为什么还需要被放入 Memstore？</font>
 
