@@ -15,6 +15,13 @@ __Start__
 [2.快速启动hbase](/hbase/快速启动Hbase.md)<br>
 [3.hbase内部探险](/hbase/hbase内部探险.md)<br>
 
+__由于在学习habse的过程中，zookeeper不熟悉导致hbase启动后hmaster马上挂掉的情况没法继续，所以这里先学习zookeeper__
+
+### zookeeper
+
+[1.zookeeper基础概念](/zookeeper/基础概念)<br>
+
+
 
 
 
