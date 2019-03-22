@@ -21,7 +21,7 @@ __由于在学习habse的过程中，zookeeper不熟悉导致hbase启动后hmast
 
 [1.zookeeper概述](/zookeeper/概述.md)<br>
 [2.zookeeper基础概念](/zookeeper/基础概念.md)<br>
-
+[3.watch机制](/zookeeper/Watch机制.md)<br>
 
 
 
